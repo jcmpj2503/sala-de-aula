@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
@@ -55,7 +55,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://vercel.com/import?filter=next.js utm_source=create-next-app utm_medium=default-template utm_campaign=create-next-app"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
@@ -69,7 +69,7 @@ export default function Home() {
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <a
           className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://vercel.com?utm_source=create-next-app utm_medium=default-template utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -78,5 +78,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
+  );
 }
